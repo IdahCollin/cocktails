@@ -1,6 +1,6 @@
-<p align="center"><img src="https://openair-feast.netlify.app/logo11.png" alt="Logo" width="80%"></p><br>
+<p align="center"><img src="frontend/src/assets/favicon-martini.png" alt="Logo" width="10%"></p><br>
 
-As part of the Technigo Web Dev Bootcamp, this project was created as the Final Project by Emmy Dieden and Idah Collin. Open AIr Feast generates camping stove-friendly recipes by integrating with the OpenAI API. Recipe generation is based on user prompts of one to three ingredients and dietary requirements. Our hope by building this website is to make it easier for people to connect with nature and enjoy delicious meals outdoors. <br><br>
+This is a hobby project inspired by my final project (final project created with Emmy Dieden). "CocktAils" generates mocktails and cocktails by integrating with the OpenAI API. Recipe generation is based on user prompts of one to three ingredients and dietary requirements. <br><br>
 
 ## Technologies used
 
