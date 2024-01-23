@@ -1,0 +1,75 @@
+.header {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: rgba(84, 101, 65, 0.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header a {
+    color: #286052;
+}
+
+.header-logo {
+    width: 230px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.header nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 20%;
+    list-style: none;
+    margin-right: 4%;
+}
+
+.header-nav svg {
+    color: #173e34;
+    background: white;
+    padding: 10%;
+    border-radius: 50%;
+    stroke-width: 0.5;
+    /* Changes how bold the strokes are in the react icons */
+}
+
+
+/* Hover effects */
+.header-nav svg:hover {
+    color: rgba(84, 101, 65, 0.5);
+}
+
+
+/* ---------TABLET VIEW---------- */
+@media (min-width: 667px) and (max-width: 1024px) {
+    .header-logo {
+        width: 250px;
+        margin-left: 15px;
+        /*så att den kommer i linje med receptet*/
+    }
+
+    .header nav ul {
+        gap: 70%;
+        margin-right: 24%;
+    }
+}
+
+/* ---------DESKTOP VIEW---------- */
+@media (min-width: 1025px) {
+    .header-logo {
+        width: 305px;
+        padding-bottom: 0%;
+        padding-left: 8%;
+    }
+
+    .header nav ul {
+        gap: 70%;
+        margin-right: 36%;
+        margin-top: 8%;
+    }
+
+    .header a {
+        font-size: 4vh;
+    }
+}

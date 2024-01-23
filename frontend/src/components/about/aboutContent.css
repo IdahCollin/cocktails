@@ -1,0 +1,154 @@
+.about-container {
+    margin-top: 24%;
+    margin-bottom: 24%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+
+.about-vision,
+.about-tech,
+.project-info {
+    text-align: center;
+    padding-bottom: 4%;
+}
+
+.about-icons svg {
+    font-size: 2.5vh;
+    color: white;
+    background: #173e34;
+    padding: 1.5%;
+    border-radius: 50%;
+}
+
+.about-vision p,
+.about-tech p {
+    margin-bottom: 12%;
+    text-align: justify;
+}
+
+.project-info p {
+    margin-bottom: 24%;
+    text-align: justify;
+}
+
+.project-info a {
+    font-weight: bold;
+    color: #173e34;
+}
+
+.project-info a:hover {
+    color: rgba(84, 101, 65, 0.5);
+}
+
+.cards-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* Style for each card */
+.card-content {}
+
+/* Style for the card image */
+.card img {
+    width: 30vw;
+    height: 15vh;
+    /* Adjust the aspect ratio (height/width) as needed */
+    object-fit: cover;
+    border: 2px solid #286052;
+    /* Width, Style, Color */
+}
+
+/* Style for the card title */
+.card h3 {
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+
+/* Style for the social media icons */
+.contact-idah,
+.contact-emmy {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 4%;
+}
+
+.contact-idah a,
+.contact-emmy a {
+    color: #286052;
+    /* Default color for icons */
+    transition: color 0.3s ease;
+    /* Smooth transition effect */
+}
+
+/* Change icon color on hover */
+.contact-idah a:hover,
+.contact-emmy a:hover {
+    color: rgba(84, 101, 65, 0.5);
+}
+
+
+/* ---------TABLET VIEW---------- */
+@media (min-width: 667px) and (max-width: 1024px) {
+
+    .about-vision,
+    .about-tech,
+    .project-info {
+        display: flex;
+        flex-direction: row;
+        gap: 12%;
+    }
+
+    .about-icons svg {
+        font-size: 2.5vh;
+        padding: 15%;
+    }
+
+    .about-container {
+        margin-left: 12%;
+        margin-right: 12%;
+    }
+
+    .card img {
+        width: 30vw;
+        height: 20vh;
+        /* Adjust the aspect ratio (height/width) as needed */
+    }
+
+}
+
+/* ---------DESKTOP VIEW---------- */
+@media (min-width: 1025px) {
+    .about-container {
+        margin-top: 8%;
+        margin-bottom: 8%;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    .about-vision,
+    .about-tech,
+    .project-info {
+        display: flex;
+        flex-direction: row;
+        gap: 12%;
+        max-width: 800px;
+    }
+
+    .about-icons svg {
+        font-size: 3.5vh;
+        padding: 20%;
+    }
+
+    .project-info p {
+        margin-bottom: 14%;
+    }
+
+    .card img {
+        width: 20vw;
+        height: 30vh;
+        /* Adjust the aspect ratio (height/width) as needed */
+    }
+}

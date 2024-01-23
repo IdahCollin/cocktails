@@ -1,0 +1,77 @@
+.footer {
+    height: 17vh;
+    padding: 1rem;
+    background-color: #173e34;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+.footer-logo {
+    width: 180px;
+}
+
+.footer p {
+    color: white;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.footer p a {
+    font-weight: bolder;
+    color: white;
+}
+
+.footer nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 30%;
+    list-style: none;
+    padding: 0;
+    margin-top: 2%;
+    /* Removing default padding */
+}
+
+.footer-nav a {
+    font-size: 3vh;
+}
+
+.footer-nav svg {
+    color: #173e34;
+    background: white;
+    padding: 10%;
+    border-radius: 50%;
+    stroke-width: 1.3;
+    /* Changes how bold the strokes are in the react icons */
+}
+
+/* Hover effects */
+.footer p a:hover {
+    /* color: rgba(84, 101, 65, 0.5); */
+    color: rgba(140, 160, 120, 0.5);
+}
+
+.footer-nav svg:hover {
+    color: rgba(84, 101, 65, 0.5);
+}
+
+
+/* ---------TABLET VIEW---------- */
+@media (min-width: 667px) and (max-width: 1024px) {
+    .footer-logo {
+        width: 200px;
+    }
+}
+
+/* ---------DESKTOP VIEW---------- */
+@media (min-width: 1025px) {
+    .footer {
+        flex-direction: row;
+    }
+
+    .footer-logo {
+        width: 200px;
+    }
+}
