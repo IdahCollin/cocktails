@@ -52,7 +52,7 @@ export const CollectionRecipes = () => {
 
       {/* Conditionally render the heading only when it is no error message for fetching all recipes */}
       {!errorMessageFetchAll && (
-        <h3>Latest AI-Generated Recipes</h3>)}
+        <h3>Latest AI-Generated CocktAils</h3>)}
 
       <div className="recipe-grid">
         {limitedRecipes.map((recipe, index) => (

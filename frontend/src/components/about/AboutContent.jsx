@@ -17,7 +17,7 @@ export const AboutContent = () => {
                 {/* Vision Section */}
                 <div className="about-vision">
                     <div className="about-icons"><TbHealthRecognition /></div>
-                    <p>Our vision is to make it easier for people to connect with nature and enjoy delicious meals outdoors.</p>
+                    <p>Let's make it easier creating a mocktail/cocktail at home, minimizing waste!</p>
                 </div>
 
                 {/* Tech Section */}
@@ -31,7 +31,7 @@ export const AboutContent = () => {
                 <div className="project-info">
                     <div className="about-icons"><IoTrailSignOutline /></div>
                     <p>
-                        Navigate through the <a href="https://github.com/IdahCollin/final-boiler-plate-monorepo/blob/main/README.md">GitHub README</a> trail for more information and code for OpenAir Feast.
+                        Explore the <a href="https://github.com/IdahCollin/cocktails/blob/main/README.md">GitHub README</a> mixology for additional details and code for CocktAil.
                     </p></div></div>
 
             {/* Team Members Cards */}
@@ -39,23 +39,11 @@ export const AboutContent = () => {
                 <div className="card">
                     <div className="card-content">
                         <img src="https://idah-collin-portfolio.netlify.app/assets/profilbildidah.jpeg" alt="Photo of Idah Collin" />
-                        <h3>Idah Collin</h3>
+                        <h3>Crafted by: Idah Collin</h3>
                         <div className="contact-idah">
                             <a href="https://idah-collin-portfolio.netlify.app/"><FaBook /></a>
                             <a href="https://www.linkedin.com/in/idah-collin"><FaLinkedin /></a>
                             <a href="https://github.com/IdahCollin"><FaGithub /></a>
-                        </div>
-                    </div>
-                </div>
-
-                {/* Card 2 */}
-                <div className="card">
-                    <div className="card-content">
-                        <img src="https://emmy-dieden-portfolio.netlify.app/assets/gifs/Profilbild-min.JPG" alt="Photo of Emmy Dieden" />
-                        <h3>Emmy Dieden</h3>
-                        <div className="contact-emmy">
-                            <a href="https://emmy-dieden-portfolio.netlify.app/"><FaBook /></a> <a href="https://www.linkedin.com/in/emmy-dieden-774574283/"><FaLinkedin /></a>
-                            <a href="https://github.com/EmmyDieden"><FaGithub /></a>
                         </div>
                     </div>
                 </div>

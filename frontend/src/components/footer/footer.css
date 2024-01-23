@@ -1,20 +1,16 @@
 .footer {
-    height: 17vh;
-    padding: 1rem;
-    background-color: #173e34;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 5%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
 }
 
-.footer-logo {
-    width: 180px;
-}
 
 .footer p {
-    color: white;
+    color: rgb(6, 1, 96);
     line-height: 1.5;
     text-align: center;
 }
@@ -30,8 +26,6 @@
     gap: 30%;
     list-style: none;
     padding: 0;
-    margin-top: 2%;
-    /* Removing default padding */
 }
 
 .footer-nav a {
@@ -47,6 +41,11 @@
     /* Changes how bold the strokes are in the react icons */
 }
 
+.ice-footer {
+    max-width: 100%;
+    margin-top: -30%;
+}
+
 /* Hover effects */
 .footer p a:hover {
     /* color: rgba(84, 101, 65, 0.5); */
@@ -59,11 +58,7 @@
 
 
 /* ---------TABLET VIEW---------- */
-@media (min-width: 667px) and (max-width: 1024px) {
-    .footer-logo {
-        width: 200px;
-    }
-}
+@media (min-width: 667px) and (max-width: 1024px) {}
 
 /* ---------DESKTOP VIEW---------- */
 @media (min-width: 1025px) {
@@ -71,7 +66,4 @@
         flex-direction: row;
     }
 
-    .footer-logo {
-        width: 200px;
-    }
 }

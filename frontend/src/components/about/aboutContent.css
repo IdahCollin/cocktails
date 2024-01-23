@@ -16,9 +16,9 @@
 .about-icons svg {
     font-size: 2.5vh;
     color: white;
-    background: #173e34;
+    background: rgb(109, 144, 169);
     padding: 1.5%;
-    border-radius: 50%;
+    border-radius: 10%;
 }
 
 .about-vision p,
@@ -34,7 +34,7 @@
 
 .project-info a {
     font-weight: bold;
-    color: #173e34;
+    color: rgb(109, 144, 169);
 }
 
 .project-info a:hover {
@@ -47,7 +47,11 @@
 }
 
 /* Style for each card */
-.card-content {}
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 /* Style for the card image */
 .card img {
@@ -55,7 +59,8 @@
     height: 15vh;
     /* Adjust the aspect ratio (height/width) as needed */
     object-fit: cover;
-    border: 2px solid #286052;
+    border: 2px solid rgb(109, 144, 169);
+    border-radius: 50%;
     /* Width, Style, Color */
 }
 
@@ -63,6 +68,7 @@
 .card h3 {
     margin-top: 4%;
     margin-bottom: 4%;
+    color: rgb(109, 144, 169);
 }
 
 
@@ -75,9 +81,8 @@
     gap: 4%;
 }
 
-.contact-idah a,
-.contact-emmy a {
-    color: #286052;
+.contact-idah a {
+    color: rgb(109, 144, 169);
     /* Default color for icons */
     transition: color 0.3s ease;
     /* Smooth transition effect */

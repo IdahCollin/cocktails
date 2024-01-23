@@ -165,9 +165,9 @@ Google Lighthouse and cross-browser testing show satisfactory results.
 
 ## View it live
 
-**Frontend:** https://openair-feast.netlify.app/<br>
+**Frontend:** <br>
 
-**Backend:** https://ai-recipes-collin-dieden.onrender.com<br><br>
+**Backend:** <br><br>
 
 ## Let's connect!
 
