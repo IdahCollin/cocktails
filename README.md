@@ -169,23 +169,7 @@ Google Lighthouse and cross-browser testing show satisfactory results.
 
 **Backend:** https://ai-recipes-collin-dieden.onrender.com<br><br>
 
-## Connect with us
-
-<div style="display: flex; justify-content: space-between; gap: 5px;">
-
-<div style="width: 48%;">
-
-**Emmy Dieden:**<br>
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/emmy-dieden-774574283)<br>
-
-[![GitHub](https://img.shields.io/badge/GitHub-black?style=flat-square&logo=github)](https://github.com/EmmyDieden)<br>
-
-[Emmy's portfolio](https://emmy-dieden-portfolio.netlify.app/)<br>
-
-</div>
-
-<div style="width: 48%;">
+## Let's connect!
 
 **Idah Collin:**<br>
 
@@ -193,8 +177,5 @@ Google Lighthouse and cross-browser testing show satisfactory results.
 
 [![GitHub](https://img.shields.io/badge/GitHub-black?style=flat-square&logo=github)](https://github.com/IdahCollin)<br>
 
-[Idah's portfolio](https://idah-collin-portfolio.netlify.app/)<br>
+[Portfolio](https://idah-collin-portfolio.netlify.app/)<br>
 
-</div>
-
-</div>
