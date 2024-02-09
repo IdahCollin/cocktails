@@ -17,7 +17,7 @@ export const AboutContent = () => {
                 {/* Vision Section */}
                 <div className="about-vision">
                     <div className="about-icons"><TbHealthRecognition /></div>
-                    <p>Let's make it easier creating a mocktail/cocktail at home, minimizing waste!</p>
+                    <p>Let's make it easier creating a mocktail at home. Minimizing waste, maximizing taste!</p>
                 </div>
 
                 {/* Tech Section */}
@@ -31,7 +31,7 @@ export const AboutContent = () => {
                 <div className="project-info">
                     <div className="about-icons"><IoTrailSignOutline /></div>
                     <p>
-                        Explore the <a href="https://github.com/IdahCollin/cocktails/blob/main/README.md">GitHub README</a> mixology for additional details and code for CocktAil.
+                        Explore the <a href="https://github.com/IdahCollin/cocktails/blob/main/README.md">GitHub README</a> mixology for additional details and code for Pure Pour.
                     </p></div></div>
 
             {/* Team Members Cards */}

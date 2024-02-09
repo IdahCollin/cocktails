@@ -58,7 +58,7 @@
 /* ---------DESKTOP VIEW---------- */
 @media (min-width: 1025px) {
     .header-logo {
-        width: 50px;
+        width: px;
         padding-bottom: 0%;
         padding-left: 8%;
     }

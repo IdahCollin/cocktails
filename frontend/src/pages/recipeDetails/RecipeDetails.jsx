@@ -86,8 +86,10 @@ export const RecipeDetails = () => {
             <RecipeInfoDetails userInput={foundRecipe.userInput} />
             <div className="details-image-container">
               <ImageDetails
-                src="/recipe-imgs/campfire-896196_1280.jpg"
-                alt="outdoor cooking"
+                // src="/recipe-imgs/campfire-896196_1280.jpg"
+                // alt="outdoor cooking"
+                src="/recipe-imgs/gin-tonic.jpg"
+                alt="mocktail"
               />
               {/* Overlay div for the gradient */}
               <div className="details-image-gradient-overlay"></div>{" "}

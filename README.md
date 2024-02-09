@@ -1,6 +1,6 @@
 <p align="center"><img src="frontend/src/assets/favicon-martini.png" alt="Logo" width="10%"></p><br>
 
-This is a hobby project inspired by my final project (final project created with Emmy Dieden). "CocktAils" generates mocktails and cocktails by integrating with the OpenAI API. Recipe generation is based on user prompts of one to three ingredients and dietary requirements. <br><br>
+"Pure Pour" generates mocktails by integrating with the OpenAI API. Recipe generation is based on user prompts of one to three ingredients and dietary requirements. This is a hobby project inspired by my final project (final project created with Emmy Dieden). <br><br>
 
 ## Technologies used
 

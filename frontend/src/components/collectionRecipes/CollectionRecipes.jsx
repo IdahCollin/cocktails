@@ -32,7 +32,7 @@ export const CollectionRecipes = () => {
   //loading state (Need to set this, so rendering doesn't happen BEFORE fetch!)
   if (loading) {
     return <div className="spinner-container">
-      <div className="spinner"></div><p>Loading AI-generated recipes. Be patient, this might take a minute or two!</p></div>;
+      <div className="spinner"></div><p>Loading AI-generated mocktAIls. Be patient, this might take a minute or two!</p></div>;
   }
 
   // Slice the recipes array to get only the first 12 recipes
@@ -52,7 +52,7 @@ export const CollectionRecipes = () => {
 
       {/* Conditionally render the heading only when it is no error message for fetching all recipes */}
       {!errorMessageFetchAll && (
-        <h3>Latest AI-Generated CocktAils</h3>)}
+        <h3>AI-Generated mocktAIls</h3>)}
 
       <div className="recipe-grid">
         {limitedRecipes.map((recipe, index) => (
