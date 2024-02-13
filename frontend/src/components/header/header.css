@@ -1,10 +1,12 @@
 .header {
     padding-left: 1rem;
     padding-right: 1rem;
-    background-color: white;
+    /* background-color: white; */
     display: flex;
+    position: fixed;
     justify-content: space-between;
     align-items: center;
+    z-index: 1000;
 }
 
 .header a {

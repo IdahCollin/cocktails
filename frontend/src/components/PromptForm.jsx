@@ -40,7 +40,7 @@ export const PromptForm = () => {
   };
 
   // Placeholder texts for each textarea
-  const placeholders = ["E.g. Pasta", "E.g. Egg", "E.g. Basil"];
+  const placeholders = ["E.g. Orange juice", "E.g. Egg-white", "E.g. Basil"];
 
   // Render the component. Form element
   return (

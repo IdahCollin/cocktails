@@ -5,7 +5,8 @@ export const HeroSection = () => {
   return (
     <>
       <section className="hero">
-        <PromptForm/>
+        <div class="welcome">MocktAil sdlfkjsdlkfj</div>
+        {/* <PromptForm /> */}
       </section>
     </>
   );

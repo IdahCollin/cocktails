@@ -1,6 +1,7 @@
 // import OpenAiAssistant from '../components/OpenAIAssistant'
 import { useEffect } from 'react';
 import { HeroSection } from '../components/heroSection/HeroSection';
+import { PromptForm } from '../components/PromptForm'
 import { NewRecipe } from '../components/newRecipe/NewRecipe';
 import { CollectionRecipes } from "../components/collectionRecipes/CollectionRecipes"
 import { recipeStore } from '../stores/recipeStore';
@@ -18,6 +19,7 @@ export const Home = () => {
   return (
     <>
       <HeroSection />
+      <PromptForm />
       {isGenerating ? <div className="spinner-container-new"> {/*CSS for spinner in App.css and collectionRecipes.css*/}
         <div className="spinner"></div><p>Just a minute away from your AI-generated delicious meal!</p></div> : (newRecipe && <NewRecipe />)} {/* Conditionally render NewRecipe only when newRecipe is truthy */}
       <CollectionRecipes />
