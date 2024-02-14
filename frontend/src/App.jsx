@@ -16,7 +16,7 @@ export const App = () => {
         <main>
           <Header />
           <Routes>{routes}</Routes>
-          <Footer />
+          {/* <Footer /> */}
         </main>
       </BrowserRouter>
     </>

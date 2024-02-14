@@ -11,12 +11,15 @@
     align-items: center;
     margin: 10px;
     padding: 30px;
-    background-color: rgb(109, 144, 169, 0.5)
+    /* background-color: rgb(109, 144, 169, 0.5) */
+    border: 1px solid whitesmoke;
+    /* border-style: outset;
+    border-color: whitesmoke; */
 }
 
 .instruction-text {
     text-align: center;
-    color: white;
+    color: whitesmoke;
     margin-bottom: 20px;
     font-weight: normal;
 }
@@ -94,7 +97,7 @@ input[type='checkbox'] {
 .generate-button {
     font-size: 1.1rem;
     background-color: rgb(109, 144, 169);
-    color: white;
+    color: whitesmoke;
     border: none;
     border-radius: 1.6rem;
     padding: 0.5rem;
@@ -103,7 +106,7 @@ input[type='checkbox'] {
 }
 
 .generate-button:hover {
-    border: 1px solid white;
+    border: 1px solid whitesmoke;
 }
 
 button:hover {

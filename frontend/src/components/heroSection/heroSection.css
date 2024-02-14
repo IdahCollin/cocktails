@@ -12,7 +12,15 @@
 }
 
 .welcome {
-    font-size: 40px;
+    font-size: 150%;
+    color: whitesmoke;
+    font-family: "Quicksand", sans-serif;
+    text-align: center;
+}
+
+.mocktail {
+    font-size: 1.2em;
+    font-weight: bold;
 }
 
 
@@ -28,5 +36,9 @@
     .hero {
         /* height: 450px; */
         background-position: 10% 55%;
+    }
+
+    .welcome {
+        font-size: 200%;
     }
 }

@@ -69,7 +69,7 @@ export const RecipeDetails = () => {
       <div className="recipe-loader-container">
         <div className="recipe-loader"></div>
         <p>
-          Loading AI-generated recipes. Be patient, this might take a minute or
+          Loading AI-generated Mocktails. Be patient, this might take a minute or
           two!
         </p>
       </div>

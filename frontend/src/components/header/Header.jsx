@@ -9,11 +9,12 @@ import { BiSolidDrink } from "react-icons/bi";
 export const Header = () => {
   return (
     <div className="header">
-      <Link to="/"><img className="header-logo" src="./src/assets/favicon-martini.png" alt="logo" /></Link>
+      {/* <Link to="/"><img className="header-logo" src="./src/assets/favicon-martini.png" alt="logo" /></Link> */}
       <nav className="header-nav">
         <ul>
           {/* <li><Link to="/"><BiSolidDrink /></Link></li> */}
-          <li><Link to="/about"><CiCircleInfo /></Link></li>
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="/about">About</Link></li>
         </ul>
       </nav>
     </div>

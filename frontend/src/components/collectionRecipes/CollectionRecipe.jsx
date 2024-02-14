@@ -6,7 +6,9 @@ import "./collectionRecipe.css";
 
 //Paths to images 
 const imageUrls = [
-  "/recipe-imgs/gin-tonic.jpg"
+  "/src/assets/hands.jpg"
+  // "/recipe-imgs/gin-tonic.jpg",
+  // "/src/assets/hero-mocktail.jpg",
   // "/recipe-imgs/campfire-896196_1280.jpg",
   // "/recipe-imgs/camping-cooker-1853680_1280.jpg",
   // "/recipe-imgs/picnic-4246724_1280.jpg",
