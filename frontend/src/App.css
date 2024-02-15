@@ -41,7 +41,7 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: #286052;
+  color: rgb(109, 144, 169);
 }
 
 label {

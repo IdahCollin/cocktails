@@ -11,12 +11,13 @@
 .project-info {
     text-align: center;
     padding-bottom: 4%;
+    color: whitesmoke;
 }
 
 .about-icons svg {
     font-size: 2.5vh;
     color: white;
-    background: rgb(109, 144, 169);
+    /* background: rgb(109, 144, 169); */
     padding: 1.5%;
     border-radius: 10%;
 }
@@ -34,11 +35,11 @@
 
 .project-info a {
     font-weight: bold;
-    color: rgb(109, 144, 169);
+    color: whitesmoke;
 }
 
 .project-info a:hover {
-    color: rgba(84, 101, 65, 0.5);
+    color: rgb(109, 144, 169);
 }
 
 .cards-container {
@@ -68,13 +69,12 @@
 .card h3 {
     margin-top: 4%;
     margin-bottom: 4%;
-    color: rgb(109, 144, 169);
+    color: whitesmoke;
 }
 
 
 /* Style for the social media icons */
-.contact-idah,
-.contact-emmy {
+.contact-idah {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -82,16 +82,15 @@
 }
 
 .contact-idah a {
-    color: rgb(109, 144, 169);
+    color: whitesmoke;
     /* Default color for icons */
     transition: color 0.3s ease;
     /* Smooth transition effect */
 }
 
 /* Change icon color on hover */
-.contact-idah a:hover,
-.contact-emmy a:hover {
-    color: rgba(84, 101, 65, 0.5);
+.contact-idah a:hover {
+    color: rgb(109, 144, 169);
 }
 
 
@@ -127,11 +126,14 @@
 /* ---------DESKTOP VIEW---------- */
 @media (min-width: 1025px) {
     .about-container {
-        margin-top: 8%;
-        margin-bottom: 8%;
-        margin-left: 20%;
+        margin-top: 0%;
+        margin-bottom: 0%;
+        margin-left: 25%;
         margin-right: 20%;
+        padding-top: 10%;
+        padding-bottom: 10%;
     }
+
 
     .about-vision,
     .about-tech,
@@ -139,7 +141,7 @@
         display: flex;
         flex-direction: row;
         gap: 12%;
-        max-width: 800px;
+        max-width: 1300px;
     }
 
     .about-icons svg {

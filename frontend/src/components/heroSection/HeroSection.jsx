@@ -5,7 +5,7 @@ export const HeroSection = () => {
   return (
     <>
       <section className="hero">
-        <div class="welcome"><span class="mocktail">MocktAil</span><br></br> Generating alcohol-free drinks based on your preferences</div>
+        <div class="welcome"><span class="mocktail">Pure Pour</span><br></br> Generating mocktAils based on your preferences</div>
         {/* <PromptForm /> */}
       </section>
     </>

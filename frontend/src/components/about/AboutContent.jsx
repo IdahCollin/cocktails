@@ -2,9 +2,9 @@
 import "./aboutContent.css";
 
 // Importing various icons from react-icons library
-import { TbHealthRecognition } from "react-icons/tb";
+import { FaGlassMartiniAlt } from "react-icons/fa";
 import { MdOutlineComputer } from "react-icons/md";
-import { IoTrailSignOutline } from "react-icons/io5";
+import { ImLab } from "react-icons/im";
 import { FaBook } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa"
 import { FaGithub } from "react-icons/fa"
@@ -16,7 +16,7 @@ export const AboutContent = () => {
             <div className="vision-tech-info">
                 {/* Vision Section */}
                 <div className="about-vision">
-                    <div className="about-icons"><TbHealthRecognition /></div>
+                    <div className="about-icons"><FaGlassMartiniAlt /></div>
                     <p>Let's make it easier creating a mocktail at home. Minimizing waste, maximizing taste!</p>
                 </div>
 
@@ -29,7 +29,7 @@ export const AboutContent = () => {
 
                 {/* Project Information */}
                 <div className="project-info">
-                    <div className="about-icons"><IoTrailSignOutline /></div>
+                    <div className="about-icons"><ImLab /></div>
                     <p>
                         Explore the <a href="https://github.com/IdahCollin/cocktails/blob/main/README.md">GitHub README</a> mixology for additional details and code for Pure Pour.
                     </p></div></div>
