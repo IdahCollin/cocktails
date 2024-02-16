@@ -19,18 +19,18 @@
 }
 
 .tab-button-method.active,
-.tab-button-ingredients.active  {
-    background-color:  #173e34;
-    color: white;
-  }
+.tab-button-ingredients.active {
+    background-color: whitesmoke;
+    color: black;
+}
 
-  .tab-button-ingredients.active {
+.tab-button-ingredients.active {
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
-  }
+}
 
-  .tab-button-method.active {
-   border-top-right-radius: 50px;
-   border-bottom-right-radius: 50px;
-  
-  }
+.tab-button-method.active {
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+
+}

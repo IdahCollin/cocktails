@@ -40,12 +40,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: #286052;
+    color: whitesmoke;
 }
 
 .spinner {
-    border: 4px solid #286052;
-    border-top: 4px solid #86bca8;
+    border: 4px solid rgb(109, 144, 169);
+    border-top: 4px solid rgb(169, 205, 230);
     border-radius: 50%;
     width: 50px;
     height: 50px;

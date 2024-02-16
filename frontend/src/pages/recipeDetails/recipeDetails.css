@@ -1,7 +1,7 @@
 .recipe-details {
   line-height: 1.25;
-  padding: 0 10px;
-  margin: 20px 0px;
+  padding: 30px 10px;
+  margin: 0px 0px 20px 0px;
 }
 
 .recipe-details h1 {
@@ -9,6 +9,7 @@
   font-weight: 400;
   /* margin-top: 1rem; */
   margin-bottom: 1rem;
+  color: whitesmoke;
 }
 
 .servings {
@@ -17,8 +18,8 @@
 }
 
 .servings svg {
-  color: white;
-  background: #173e34;
+  color: whitesmoke;
+
   padding: 3px;
   border-radius: 50%;
   stroke-width: 0.5;
@@ -45,7 +46,6 @@
 .input-tag-details {
   display: flex;
   align-items: center;
-  background-color: #173e34;
   color: #fff;
   font-family: Raleway;
   font-size: 12px;
@@ -74,7 +74,6 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to top, rgb(55, 95, 74, 0.7) 5%, rgb(240, 234, 208, 0.1) 80%);
   pointer-events: none;
   /* Allows clicks to pass through the overlay to the image */
 }
@@ -102,7 +101,7 @@
 
 .details-text-container {
   width: 50%;
-  padding: 0 50px;
+  padding: 10%;
 }
 
 .recipe-loader-container {
@@ -126,8 +125,9 @@
 /* ---------TABLET VIEW---------- */
 @media (min-width: 667px) and (max-width: 1024px) {
   .recipe-details {
-    padding: 0 20px;
-    margin: 50px 12px;
+    padding: 75px 20px;
+    margin: 0px 12px 0px 12px;
+    height: 100vh;
   }
 
   .recipe-details img {
@@ -143,7 +143,8 @@
 /* ---------DESKTOP VIEW----------*/
 @media (min-width: 1025px) {
   .recipe-details {
-    margin-left: 25px;
+    height: 100vh;
+    margin-top: 0;
   }
 
   .recipe-details img {
@@ -153,11 +154,15 @@
   }
 
   .details-image-container {
-    background-image: linear-gradient(to top, rgb(55, 95, 74, 0.7) 5%, rgb(240, 234, 208, 0.1) 80%), url("/public/recipe-imgs/gin-tonic.jpg");
+    background-image: url("/public/recipe-imgs/gin-tonic.jpg");
     background-size: cover;
     height: 700px;
     width: 50%;
     background-position: 30%;
+  }
+
+  .details-text-container {
+    padding-top: 5%;
   }
 
   .recipe-details h1 {

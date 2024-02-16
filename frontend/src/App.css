@@ -17,11 +17,13 @@ h2,
 h3,
 h4 {
   font-family: "Quicksand", sans-serif;
+  color: whitesmoke;
 }
 
 p {
   font-family: "Quicksand", sans-serif;
   font-size: 1.1em;
+  color: whitesmoke;
 }
 
 
@@ -29,6 +31,7 @@ li {
   font-family: "Quicksand", sans-serif;
   font-size: 1.1em;
   line-height: 1.5;
+  color: whitesmoke;
 }
 
 button {
