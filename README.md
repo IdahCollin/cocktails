@@ -1,6 +1,6 @@
 <p align="center"><img src="frontend/src/assets/favicon-martini.png" alt="Logo" width="10%"></p><br>
 
-"Pure Pour" generates mocktails by integrating with the OpenAI API. Recipe generation is based on user prompts of one to three ingredients. This is a hobby project inspired by a project built by Emmy Dieden and me. <br><br>
+"Pure Pour" generates mocktails by integrating with the OpenAI API. Recipe generation is based on user prompts of one to three ingredients. <br><br>
 
 ## Technologies used
 
@@ -84,7 +84,7 @@
 1. **Clone the Repository:**
 
 ```
-git clone open-air-feast
+git clone hobby-drinks
 ```
 
 2. **Navigate to the Backend Directory**
@@ -148,14 +148,14 @@ npm run dev
 
 ## Challenges
 
-It was a challenge connecting to the OpenAI API as this was completely new to us, and we realised that many of the explanatory videos and similar repos on GitHub already were outdated as the openAI technology develops very fast. But reading the documentation on OpenAIs website very thouroughly, in combination with studying similar projects, we got it to work.
+It was a challenge connecting to the OpenAI API. Many of the explanatory videos and similar repos on GitHub already were outdated as the openAI technology develops very fast. But reading the documentation on OpenAIs website very thouroughly, in combination with studying similar projects helped.
 
-We are exploring the subject of prompt engineering and learning how to structure texts in a way so they are intepreted and understood by AI models as intended. 
+Continuing to explore the subject of prompt engineering and learning how to structure texts in a way so they are intepreted and understood by AI models as intended. 
 <br><br>
 
 ## Project Process
 
-The starting point was to create a MVP and to set up a basic structure of the frontend and backend. An API was built for connecting with MongoDB database, and connection was made to the OpenAI API. Next up was basic styling and responsiveness (mobile first). Final stage was focusing on prompt engineering to make the openAI model work better and also improving functions as error handling and solving minor bugs. Ended of with final styling. 
+Input info here. This is a hobby project inspired by a project built by Emmy Dieden and me.
 
 Moving forward: 
 The project is prepared for further development, such as using authentication for building a login function. There is a prepared endpoint for searching for recipes, which only needs to be implemented in the frontend. To extend the project further, next step would be to build an endpoint for saving recipes to the database, and also fine-tune the model for even better responses. 
