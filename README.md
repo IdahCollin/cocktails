@@ -10,7 +10,7 @@
 
 **Frontend**
 
-- React
+- React (HTML, CSS, JavaScript)
 - Vite
 - Zustand
 - React Router
