@@ -1,6 +1,6 @@
 <p align="center"><img src="frontend/src/assets/favicon-martini.png" alt="Logo" width="10%"></p><br>
 
-"Pure Pour" generates mocktails by integrating with the OpenAI API. Recipe generation is based on user prompts of one to three ingredients. <br><br>
+"Pure Pour" generates mocktails by integrating with the OpenAI API. Recipe generation is based on user prompts of ingredients. <br><br>
 
 ## Technologies used
 
